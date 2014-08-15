@@ -1,0 +1,47 @@
+.right-pane{
+	background: #3a4141;
+}
+.right-pane.fixed{
+	position: fixed;
+	width: 250px;
+	top: 51px;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	overflow: auto;
+	padding: 15px;
+}
+.profile .profile-pic{
+	width: 90px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 0 10px 0;
+	border: 3px solid #5A5A5A;;
+}
+.profile .read span{
+	color: #969595;
+	font-size: 85%;
+}
+.profile .innerblock{
+	margin: 15px 0;
+}
+.profile .innerblock input[type="text"]{
+	margin-bottom: 10px;
+}
+.edit i{
+	margin-right: 8px;
+}
+
+a.edit-fields{ display: none;}
+.profile .innerblock:hover a.edit-fields{
+	display: inline;
+}
+.edit a{
+	color: #FFFFFF;
+}
+.locate-user{
+	position: absolute;
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	right: 250px;}
