@@ -1,5 +1,5 @@
 .right-pane{
-	background: #3a4141;
+	border-left: 1px solid #ccc;
 }
 .right-pane.fixed{
 	position: fixed;
@@ -7,7 +7,6 @@
 	top: 51px;
 	bottom: 0;
 	right: 0;
-	color: #fff;
 	overflow: auto;
 	padding: 15px;
 }
@@ -16,10 +15,10 @@
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0 0 10px 0;
-	border: 3px solid #5A5A5A;;
+	border: 3px solid #C9C7C7;;
 }
 .profile .read span{
-	color: #969595;
+	color: #727272;
 	font-size: 85%;
 }
 .profile .innerblock{
@@ -37,7 +36,7 @@ a.edit-fields{ display: none;}
 	display: inline;
 }
 .edit a{
-	color: #FFFFFF;
+	color: #333;;
 }
 .locate-user{
 	position: absolute;
