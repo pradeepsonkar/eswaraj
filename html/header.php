@@ -6,7 +6,7 @@
 	<!-- css starts -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.css">
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/dashboard.css">
 	<!-- css ends -->
 	<script src="js/jquery-2.1.0.min.js"></script>
 	<!-- <script src="js/bootstrap.min.js"></script> -->
@@ -30,6 +30,9 @@
 					</li>
 					<li>
 						<a href="#contact">My MLA</a>
+					</li>
+					<li>
+						<a href="home.php">Page</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
