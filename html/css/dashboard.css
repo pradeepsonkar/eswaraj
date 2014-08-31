@@ -1,5 +1,5 @@
 body{
-	padding: 45px 0 0 0;;
+	padding: 51px 0 40px 0;
 }
 .right-pane, .left-pane{
 	width: 250px;
@@ -28,7 +28,7 @@ body{
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0 0 10px 0;
-	border: 3px solid #C9C7C7;;
+	border: 3px solid #C9C7C7;
 }
 .profile .read span{
 	color: #727272;
@@ -48,7 +48,7 @@ a.edit-fields{ display: none;}
 	display: inline;
 }
 .edit a{
-	color: #333;;
+	color: #333;
 }
 .locate-user{
 	position: absolute;
@@ -61,11 +61,10 @@ footer{
 	padding: 7px 10px;
 	background:#ee592a;
 	text-align: center;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: absolute;
 	font-size: 12px;
+	position: relative;
+	z-index: 999;
+	bottom: -69px;
 }
 footer, footer a{
 	color: #fff;
@@ -105,25 +104,18 @@ overflow: auto;
 	width: 100%;
 }
 .listing-wrapper{
-	position: absolute;
-	top: 51px;
-	bottom: 31px;
-	left: 250px;
-	right: 0;
-	overflow: auto;
+	
 }
 .listing-wrapper h1{
-	padding-left: 10px;
 	margin: 0;
 }
-.secondary-wrapper {
-	padding: 20px 15px 0 0;}
+.secondary-wrapper {;}
 .secondary-wrapper .pull-right{
 	margin-top: 5px;
 }
 /*list row starts*/
 .list-row{
-	padding: 15px;
+	padding: 15px 0;
 	border-bottom: 1px solid #ccc;
 	min-height: 125px;}	
 .list-row .issue-pic{
@@ -151,7 +143,7 @@ overflow: auto;
 
 }
 .connector{
-	color: #aaa;;
+	color: #aaa;
 }
 .list-row .innerblock .profile-info{
 	overflow: hidden;
@@ -174,7 +166,7 @@ margin: 0;
 .badge-infra{
 	background: #FF5151;
 	font-weight: normal;
-	padding: 4px 12px;;;;;
+	padding: 4px 12px;
 	/*color: #fff;*/
 }
 .issue-id{
@@ -182,12 +174,12 @@ margin: 0;
 }
 .username{
 	color: #5E5B5B;
-	font-weight: bold;;;}
+	font-weight: bold;}
 .whom{
-	font-size: 15px;;}
+	font-size: 15px;}
 .whenwhere{
 	font-size: 85%;
-	color: #646464;;;}
+	color: #646464;}
 .whenwhere .location{
 	color: #646464;}
 
@@ -196,5 +188,131 @@ input[type="checkbox"],input[type="radio"]{
 	position: relative;
 	top: 2px;}
 label{
-	font-weight: normal;;
+	font-weight: normal;
+}
+.banner{
+	position: relative;
+	margin: 20px 0;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	padding: 20px 0;
+}
+.banner:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*background:#fff;*/
+	background: url(images/map-overlay.png) 0 0 no-repeat;
+	z-index: 9;
+	/*opacity: 0.8;*/
+}
+.locate-on-map{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.banner .row-fluid{
+	z-index: 99;
+	position: relative;
+}
+.mla-profile img{;
+	width: 75px;
+	height: 75px;
+	border: 3px solid #fff;}
+.mla-profile strong{
+}
+.mla-profile strong{
+	font-size: 20px;
+	display: block;
+	text-decoration: underline;;}
+.mla-profile p{
+	color: #fff;
+	margin: 5px 0 0 0;}
+.banner #gmap_canvas{
+	margin: 1px;
 }	
+.refine-search{
+	margin-bottom: 15px;
+}
+.refine-search .filter-options{
+	display: none;
+}
+.refine-search:hover .filter-options{
+	display: block;
+	position: absolute;
+	right: 15px;
+	z-index: 9;
+	text-align: right;
+	top: 30px;
+}
+.refine-search .filter-options .dropdown{
+	display: none;
+}
+.refine-search .filter-options:hover .dropdown{
+	display: block;
+	width: 200px;
+	padding: 10px 15px 0 15px;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin: -1px 0 0 0;;
+}
+.refine-search label{
+	text-align: left;
+	width: 100%;
+}
+.refine-search .trigger{
+	height: 32px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;}
+.listing-wrapper .pagination-wrapper{
+	text-align: center;}
+.mla-profile{
+	z-index: 99;
+	position: relative;
+}
+.mla-record .list-group span{
+	float: right;
+}
+.mla-record .panel{
+	margin: 0;
+}
+.mla-record .list-group{
+	min-height: 122px;
+}
+.about-mla {
+	overflow: hidden;}
+.about-mla img{
+	max-width: 120px;
+	float: left;
+	margin: 6px 0 0 0;}
+.about-mla .desc-wrapper{
+	width: 100%;
+	margin-left: -120px;
+	float: left;}
+.about-mla .desc-wrapper .desc{
+	padding-left: 140px;}
+.eswaraj-int-facebook{border: 1px solid #e8e8e8;border-radius: 5px;}	
+.fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+.eswaraj-int-twitter iframe{width: 100% !important;}
+
+.sub-header{
+	background: #e2e2e2;
+	padding: 10px 15px;
+	border-radius: 3px;
+	margin: 35px 0 15px 0;}
+html,body{
+height: 100%;	
+}
+.outerwrapper{
+	min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -60px;
+}

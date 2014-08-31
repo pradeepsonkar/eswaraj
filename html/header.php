@@ -11,15 +11,17 @@
 	<link rel="stylesheet" href="css/dashboard.css">
 	<link rel="stylesheet" href="css/jquery.selectBoxIt.css">
 	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css">
+	<link rel="stylesheet" href="css/bootstrap-tagsinput.css">
 	<!-- css ends -->
 	<script src="js/jquery-2.1.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/jquery.selectBoxIt.min.js"></script>
+	<script src="js/bootstrap-tagsinput.js"></script>
 	
 </head>
 <body>
-
+<div class="outerwrapper">
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -40,7 +42,7 @@
 					<a href="05-constituency.php">My Constituency</a>
 				</li>
 				<li>
-					<a href="#contact">My MLA</a>
+					<a href="07-my-mla.php">My MLA</a>
 				</li>
 				<li>
 					<a href="home.php">Page</a>
